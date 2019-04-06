@@ -1,30 +1,5 @@
 <template>
   <div>
-    <!-- <div>
-    <div style="overflow:hidden;width: 100%;position: relative;">
-      <iframe
-        width="100%"
-        height="440"
-        src="https://maps.google.com/maps?width=700&amp;height=240&amp;hl=en&amp;q=%D0%B1%D1%80%D0%B5%D1%81%D1%82%20%D1%86%D1%83%D0%BC+(%D0%A6%D0%A3%D0%9C)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
-        frameborder="0"
-        scrolling="no"
-        marginheight="0"
-        marginwidth="0"
-      ></iframe>
-      <div
-        style="width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"
-      >
-        <small style="line-height: 1.8;font-size: 2px;background: #fff;">
-          Powered by
-          <a href="https://embedgooglemaps.com/de/">https://embedgooglemaps.com/de/</a> &
-          <a href="https://iamsterdamcard.it">i amsterdamcard it</a>
-        </small>
-      </div>
-    </div>
-    <br>
-    </div>-->
-
-    <!-- ----------------------------------------------------------------------------------------------- -->
     <a name="contacts"></a>
     <v-layout row>
       <v-flex md8>
