@@ -6,30 +6,63 @@
           <v-flex xs12 md6 offset-md1>
             <v-container fluid>
               <v-layout row wrap class="white--text">
-                <v-flex xs7 md6>
+                <v-flex xs7 md6 class="hidden-sm-and-down">
                   <div>
-                    <a style="text-decoration:none; color:white" href="#attendance">Услуги</a>
+                    <a style="text-decoration:none; color:white" href="/#attendance">Услуги</a>
                   </div>
                   <div>
-                    <a style="text-decoration:none; color:white" to="drivers">Водители</a>
+                    <a style="text-decoration:none; color:white" href="drivers">Водителям</a>
                   </div>
                   <div>
-                    <a style="text-decoration:none; color:white" to="partners">Партнерам</a>
+                    <a style="text-decoration:none; color:white" href="partners">Партнерам</a>
                   </div>
                   <div>
                     <a
                       style="text-decoration:none; color:white"
-                      to="corporativeСlients"
+                      href="corporativeСlients"
                     >Корпоративным клиентам</a>
                   </div>
                   <div>
-                    <a style="text-decoration:none; color:white" href="#tariffs">Тарифы</a>
+                    <a style="text-decoration:none; color:white" href="/#tariffs">Тарифы</a>
                   </div>
                   <div>
-                    <a style="text-decoration:none; color:white" href="#aboutCompany">О компании</a>
+                    <a style="text-decoration:none; color:white" href="/#aboutCompany">О компании</a>
                   </div>
                   <div>
-                    <a style="text-decoration:none; color:white" href="#contacts">Контакты</a>
+                    <a style="text-decoration:none; color:white" href="/#contacts">Контакты</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#chatBot">Чат-бот</a>
+                  </div>
+                </v-flex>
+
+                <v-flex xs7 md6 class="hidden-md-and-up">
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#attendanceMob">Услуги</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="drivers">Водителям</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="partners">Партнерам</a>
+                  </div>
+                  <div>
+                    <a
+                      style="text-decoration:none; color:white"
+                      href="corporativeСlients"
+                    >Корпоративным клиентам</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#tariffs">Тарифы</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#aboutCompanyMob">О компании</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#contactsMob">Контакты</a>
+                  </div>
+                  <div>
+                    <a style="text-decoration:none; color:white" href="/#chatBotMob">Чат-бот</a>
                   </div>
                 </v-flex>
                 <v-flex xs5 md6>
@@ -69,7 +102,7 @@
         <v-layout row wrap align-center justify-space-around>
           <v-flex xs12 md3 class="mb-4">
             <v-layout row align-center justify-center>
-              <v-flex xs4 md3>Поделится:</v-flex>
+              <v-flex xs4 md3>Поделиться:</v-flex>
               <v-flex xs1>
                 <a href="https://vk.com">
                   <v-img src="./img/vk.png"></v-img>
