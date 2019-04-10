@@ -14,6 +14,7 @@
 
             <v-flex md3>
               <v-btn
+                href="http://admin.fixline.by"
                 style="border-radius:5px"
                 class="caption red white--text"
               >ВХОД ДЛЯ КОРПОРАТИВНЫХ КЛИЕНТОВ</v-btn>
@@ -103,7 +104,7 @@
       <v-container fluid text-xs-center>
         <v-layout row justify-center class="mb-3">
           <v-flex md3>
-            <v-btn outline block class="caption white--text">ВХОД ДЛЯ КОРПОРАТИВНЫХ КЛИЕНТОВ</v-btn>
+            <v-btn outline block class="caption white--text" href="http://admin.fixline.by">ВХОД ДЛЯ КОРПОРАТИВНЫХ КЛИЕНТОВ</v-btn>
           </v-flex>
         </v-layout>
       </v-container>
@@ -140,7 +141,7 @@
       <v-container fluid grid-list-xl text-xs-center class="mt-4">
         <v-layout row justify-center align-center fill-height>
           <v-flex md3 class>
-            <v-btn outline block large class="white--text">ВХОД ДЛЯ КОРПОРАТИВНЫХ КЛИЕНТОВ</v-btn>
+            <v-btn outline block large class="white--text" href="http://admin.fixline.by">ВХОД ДЛЯ КОРПОРАТИВНЫХ КЛИЕНТОВ</v-btn>
           </v-flex>
         </v-layout>
       </v-container>

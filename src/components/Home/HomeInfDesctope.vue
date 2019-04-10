@@ -4,7 +4,7 @@
       <v-container fluid class="mt-5">
         <v-layout row align-content-end justify-center fill-height class="mt-3">
           <v-flex xs9 class="mt-5">
-            <v-btn color="white" dark large class="mt-5 red--text">On-line заказ</v-btn>
+            <v-btn color="white" dark large class="mt-5 red--text" href="http://go.fixline.by">On-line заказ</v-btn>
           </v-flex>
         </v-layout>
       </v-container>
