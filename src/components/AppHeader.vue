@@ -4,7 +4,7 @@
 
     <!----------------------------------     Desctop     --------------------------------------------->
     <div class="hidden-sm-and-down">
-      <v-toolbar white color="white">
+      <v-toolbar app white color="white" style="z-index:100">
         <router-link to="/" tag="span" style="cursor:pointer" class="hidden-sm-and-down">
           <v-container fluid>
             <v-layout row>
@@ -75,7 +75,7 @@
 
     <!----------------------------------     Mobile     --------------------------------------------->
     <div class="hidden-md-and-up">
-      <v-toolbar white color="white">
+      <v-toolbar app white color="white" style="z-index:100">
         <router-link to="/" tag="span" style="cursor:pointer" class="hidden-md-and-up">
           <v-img src="./img/logo.png" width="70px"></v-img>
         </router-link>
@@ -115,13 +115,14 @@
       </v-toolbar>
 
       <v-navigation-drawer
-        absolute
+        fixed        
         width="400"
         temporary
         floating
         dark
         v-model="drawer"
         class="hidden-md-and-up grey darken-3"
+        style="z-index:200"
       >
         <v-list>
           <v-container fluid class="mb-2">
