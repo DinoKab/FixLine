@@ -1,8 +1,10 @@
 <template>
   <div>
+    <a name="contactsMob"></a>
       <v-flex xs12 class="red white--text">
         <v-container fluid text-xs-center>
           <v-layout row wrap justify-center>
+             
             <v-flex xs12 class="mt-3">
               <p class="headline font-weight-black">КОНТАКТЫ</p>
 
@@ -24,8 +26,7 @@
           </v-layout>
         </v-container>
       </v-flex>
- 
-    <a name="contactsMob"></a>
+
     <v-layout row>
       <v-flex xs12>
         <div style="overflow:hidden;width: 100%;position: relative;">

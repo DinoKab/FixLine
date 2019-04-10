@@ -22,7 +22,7 @@
         <v-toolbar-items class="hidden-sm-and-down mr-4">
           <v-btn style="text-transform: inherit" flat href="/#attendance">Услуги</v-btn>
           <v-btn style="text-transform: inherit" flat to="drivers">Водителям</v-btn>
-          <v-btn style="text-transform: inherit" flat to="partners">Партнерамам</v-btn>
+          <v-btn style="text-transform: inherit" flat to="/partners">Партнерам</v-btn>
           <v-btn style="text-transform: inherit" flat to="corporativeСlients">Корпоративным клиентам</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#tariffs">Тарифы</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#aboutCompany">О компании</v-btn>
@@ -137,14 +137,14 @@
                 <v-list-tile-title>Услуги</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile to="drivers">
+            <v-list-tile to="/drivers">
               <v-list-tile-content>
                 <v-list-tile-title>Водителям</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
             <v-list-tile to="partners">
               <v-list-tile-content>
-                <v-list-tile-title>Партнерамам</v-list-tile-title>
+                <v-list-tile-title>Партнерам</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
             <v-list-tile to="corporativeСlients">
