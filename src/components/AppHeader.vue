@@ -21,9 +21,9 @@
 
         <v-toolbar-items class="hidden-sm-and-down mr-4">
           <v-btn style="text-transform: inherit" flat href="/#attendance">Услуги</v-btn>
-          <v-btn style="text-transform: inherit" flat to="drivers">Водителям</v-btn>
-          <v-btn style="text-transform: inherit" flat to="/partners">Партнерам</v-btn>
-          <v-btn style="text-transform: inherit" flat to="corporativeСlients">Корпоративным клиентам</v-btn>
+          <v-btn style="text-transform: inherit" flat href="/drivers">Водителям</v-btn>
+          <v-btn style="text-transform: inherit" flat href="/partners">Партнерам</v-btn>
+          <v-btn style="text-transform: inherit" flat href="/corporativeСlients">Корпоративным клиентам</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#tariffs">Тарифы</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#aboutCompany">О компании</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#contacts">Контакты</v-btn>
@@ -137,17 +137,17 @@
                 <v-list-tile-title>Услуги</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile to="/drivers">
+            <v-list-tile href="/drivers">
               <v-list-tile-content>
                 <v-list-tile-title>Водителям</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile to="partners">
+            <v-list-tile href="/partners">
               <v-list-tile-content>
                 <v-list-tile-title>Партнерам</v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
-            <v-list-tile to="corporativeСlients">
+            <v-list-tile href="/corporativeСlients">
               <v-list-tile-content>
                 <v-list-tile-title>Корпоративным клиентам</v-list-tile-title>
               </v-list-tile-content>
