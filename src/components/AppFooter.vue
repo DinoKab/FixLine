@@ -147,7 +147,7 @@
     </div>
 
     <div>
-      <v-layout row justify-center text-xs-center class="mt-4">
+      <v-layout row wrap justify-center text-xs-center class="mt-4">
         <!-- TO DO - ссылки на лицензионное соглашение -->
         <v-flex xs10>
           <p class="caption">
@@ -156,6 +156,11 @@
               href="#"
               style="text-decoration:none; color: red"
             >лицензионным соглашением</a>
+          </p>
+        </v-flex>
+        <v-flex xs10>
+          <p class="caption">
+            <a href="./offerta.pdf" target="_blank" style="text-decoration:none; color: red">Правовые документы</a>
           </p>
         </v-flex>
       </v-layout>
