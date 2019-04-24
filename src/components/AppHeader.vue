@@ -58,7 +58,7 @@
 
               <v-flex xs5 offset-md1>
                 <a
-                  href="tel:+7785"
+                  href="tel:7785"
                   class="headline font-weight-black"
                   style="text-decoration:none; color:black"
                 >
@@ -81,7 +81,7 @@
         </router-link>
 
         <a
-          href="tel:+7785"
+          href="tel:7785"
           class="title font-weight-black ml-2"
           style="text-decoration:none; color:black"
         >

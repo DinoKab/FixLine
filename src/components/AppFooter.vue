@@ -79,7 +79,7 @@
                     >почта: fixlineby@mail.ru</a>
                   </p>
                   <p>
-                    <a href="tel:+7785" style="text-decoration:none; color:white">7785</a>
+                    <a href="tel:7785" style="text-decoration:none; color:white">7785</a>
                   </p>
                 </v-flex>
               </v-layout>
@@ -89,7 +89,7 @@
           <v-flex xs12 md4>
             <v-flex xs12 offset-md5 text-xs-center>
               <a
-                href="tel:+7785"
+                href="tel:7785"
                 class="display-1 font-weight-black"
                 style="text-decoration:none; color:white"
               >7785</a>
