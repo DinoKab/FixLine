@@ -14,14 +14,13 @@
             >Установи бесплатное приложение с фиксированными тарифами</p>
           </v-flex>
 
-          <!-- TO DO - ссылки на app store и google play -->
           <v-flex xs6 class="mt-4">
-            <a href="#">
+            <a href="https://itunes.apple.com/us/app/fixline/id1460523546?l=ru&ls=1&mt=8">
               <v-img src="./img/app_store.png"></v-img>
             </a>
           </v-flex>
           <v-flex xs6 class="mt-4">
-            <a href="#">
+            <a href="https://play.google.com/store/apps/details?id=com.berta.fixline">
               <v-img src="./img/google_play.png"></v-img>
             </a>
           </v-flex>
@@ -40,7 +39,7 @@
         <v-container fluid text-xs-center class="pt-5">
           <v-layout row class="mt-5">
             <v-flex>
-              <v-btn color="red" dark large class="mt-4"  href="http://go.fixline.by">On-line заказ</v-btn>
+              <v-btn color="red" dark large class="mt-4" href="http://go.fixline.by">On-line заказ</v-btn>
             </v-flex>
           </v-layout>
         </v-container>

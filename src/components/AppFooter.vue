@@ -125,18 +125,17 @@
             <v-layout row align-center justify-center>
               <v-flex xs6 md4>Мы в соц. сетях:</v-flex>
               <v-flex xs1>
-                <!-- TO DO - ссылки на instagram, facebook и vk -->
-                <a href="#">
+                <a href="https://www.instagram.com/fixline.by/">
                   <v-img src="./img/insta_white.png"></v-img>
                 </a>
               </v-flex>
               <v-flex xs1>
-                <a href="#">
+                <a href="https://www.facebook.com/FixLine.by">
                   <v-img src="./img/facebook_подвал.png"></v-img>
                 </a>
               </v-flex>
               <v-flex xs1>
-                <a href="#">
+                <a href="https://vk.com/fixlineby">
                   <v-img src="./img/vk_white.png"></v-img>
                 </a>
               </v-flex>
@@ -160,7 +159,11 @@
         </v-flex>
         <v-flex xs10>
           <p class="caption">
-            <a href="./offerta.pdf" target="_blank" style="text-decoration:none; color: red">Правовые документы</a>
+            <a
+              href="./offerta.pdf"
+              target="_blank"
+              style="text-decoration:none; color: red"
+            >Правовые документы</a>
           </p>
         </v-flex>
       </v-layout>

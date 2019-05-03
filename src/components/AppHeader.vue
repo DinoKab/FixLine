@@ -23,7 +23,11 @@
           <v-btn style="text-transform: inherit" flat href="/#attendance">Услуги</v-btn>
           <v-btn style="text-transform: inherit" flat href="/drivers">Водителям</v-btn>
           <v-btn style="text-transform: inherit" flat href="/partners">Партнерам</v-btn>
-          <v-btn style="text-transform: inherit" flat href="/corporativeСlients">Корпоративным клиентам</v-btn>
+          <v-btn
+            style="text-transform: inherit"
+            flat
+            href="/corporativeСlients"
+          >Корпоративным клиентам</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#tariffs">Тарифы</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#aboutCompany">О компании</v-btn>
           <v-btn style="text-transform: inherit" flat href="/#contacts">Контакты</v-btn>
@@ -37,19 +41,18 @@
             <v-layout row wrap align-center justify-space-between>
               <v-flex xs6>
                 <v-layout row wrap align-center>
-                  <!-- TO DO - ссылки на instagram, facebook и vk -->
                   <v-flex xs4>
-                    <a href="#">
+                    <a href="https://vk.com/fixlineby">
                       <v-img src="./img/vk.png" width="18"></v-img>
                     </a>
                   </v-flex>
                   <v-flex xs4>
-                    <a href="#">
+                    <a href="https://www.instagram.com/fixline.by/">
                       <v-img src="./img/insta.png" width="18"></v-img>
                     </a>
                   </v-flex>
                   <v-flex xs4>
-                    <a href="#">
+                    <a href="https://www.facebook.com/FixLine.by">
                       <v-img src="./img/facebook.png" width="18"></v-img>
                     </a>
                   </v-flex>
@@ -89,21 +92,20 @@
         </a>
 
         <v-spacer></v-spacer>
-        
-        <!-- // TO DO - ссылки на instagram, facebook и vk -->
+
         <v-layout row justify-center>
           <v-flex xs4>
-            <a href="#">
+            <a href="https://vk.com/fixlineby">
               <v-img src="./img/vk.png" width="18"></v-img>
             </a>
           </v-flex>
           <v-flex xs4>
-            <a href="#">
+            <a href="https://www.instagram.com/fixline.by/">
               <v-img src="./img/insta.png" width="18"></v-img>
             </a>
           </v-flex>
           <v-flex xs4>
-            <a href="#">
+            <a href="https://www.facebook.com/FixLine.by">
               <v-img src="./img/facebook.png" width="18"></v-img>
             </a>
           </v-flex>
@@ -115,7 +117,7 @@
       </v-toolbar>
 
       <v-navigation-drawer
-        fixed        
+        fixed
         width="400"
         temporary
         floating
